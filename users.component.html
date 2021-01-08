@@ -1,0 +1,25 @@
+<div>
+  <div class="headerWrap">
+    <h1>Scheduler: Lambda Team Meeting</h1>
+    <button class="saveBtn" (click)="updateData()">save</button>
+  </div>
+  <hr/>
+  <div class="wrap" >
+    {{mapData(users)}}
+    <div class="teamLegendWrap">
+      <form class="form" id="form" (change)="handleInputChange($event)">
+        <div class="enterName">
+          <input id="name" class="input" placeholder="input name..."
+                 type="text"/>
+        <button class="add" (click)="addName($event)">enter</button>
+        </div>
+      </form>
+      <div id="user">
+      </div>
+      <h2>Team</h2>
+      <div id="team"></div>
+
+    </div>
+    <table id="schedule" ></table>
+  </div>
+</div>
