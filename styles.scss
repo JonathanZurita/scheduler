@@ -1,0 +1,152 @@
+/* You can add global styles to this file, and also import other style files */
+.headerWrap {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+  padding: 0 70px 0 70px;
+  height: 60px;
+}
+.form {
+  color: white;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+}
+.add {
+  width: 80px;
+  height: 30px;
+  align-self: center;
+  margin-top: 5px;
+  font-size: 18px;
+  color: white;
+  border-radius: 5px;
+  background: rgba(141, 135, 135, 0.2);
+}
+.enterName {
+  font-size: 18px;
+  margin-right: 10px;
+  width: 150px;
+  height: 100px;
+  padding-bottom: 6px;
+
+
+}
+
+body {
+  background: rgb(38,43,51);
+  font-family: Bahnschrift;
+  display: flex;
+  justify-content: center;
+}
+h1 {
+  color: white;
+  text-align: center;
+  font-size: 36px;
+}
+h2 {
+  color: white;
+  font-size: 30px;
+  background: rgba(141, 135, 135, 0.2);
+  border: .2px solid rgb(65, 63, 63);
+  padding: 3px 0 3px 0;
+  margin: 0;
+}
+.saveBtn {
+  color: white;
+  font-size: 24px;
+  background: rgba(141, 135, 135, 0.2);
+  width: 85px;
+  height: 40px;
+  border-radius: 5px;
+  margin-right: 20px;
+}
+.saveBtn:hover {
+  cursor: pointer;
+}
+.wrap {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+}
+
+.teamLegendWrap {
+  width: 150px;
+  border: .2px solid rgb(65, 63, 63);
+  margin-right: 7px;
+  align-items: center;
+  text-align: center;
+  color: white;
+  font-size: 25px;
+}
+.input {
+  width: 130px;
+  background: white;
+  margin: 12px 0 5px 0;
+  font-size: 16px;
+  height: 28px;
+}
+
+#scheduleWrapper {
+  display: flex;
+  align-items: stretch;
+  justify-content: center;
+  width: fit-content;
+  background-color: transparent
+}
+
+.dayCol {
+  display: flex;
+}
+#user {
+  border: .2px solid rgb(65, 63, 63);
+  color: white;
+  background: rgba(141, 135, 135, 0.2);
+}
+.names {
+  color: white;
+  padding: 3px;
+  margin: 3px;
+  width: fit-content;
+}
+.fa fa-users {
+  color: white;
+}
+
+table {
+  border-spacing: 0.5rem;
+  border-collapse: collapse;
+  border: .2px solid rgb(65, 63, 63);
+}
+th {
+  color: White;
+  background: rgba(141, 135, 135, 0.2);
+  height: 35px;
+}
+
+
+td {
+  height: 30px;
+  font-size: 12px;
+  border: .2px solid rgb(65, 63, 63);
+  color: white;
+  width: 150px;
+  border-radius: 7px;
+}
+
+td.time {
+  width: 25px;
+  font-size: 9px;
+  font-weight: bold;
+  color: white;
+
+}
+
+td:hover {
+  cursor: pointer;
+  background-color: rgba(48, 210, 221, 0.452);
+}
+td.time:hover {
+  background-color: purple;
+  cursor: default;
+}
